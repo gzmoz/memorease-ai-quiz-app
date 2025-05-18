@@ -6,6 +6,12 @@ MemorEase is an Android application developed with Kotlin, designed to help user
   <img src="app/src/main/res/drawable/logowname.png" width="180"/>
 </p>
 
+MemorEase is an Android application that allows users to preserve and share their memories in text, voice, and image formats. The app features two distinct user flows — one for individuals and another for relatives. While individuals can upload and review their memories, relatives are also encouraged to contribute, fostering intergenerational interaction and shared remembrance.
+
+A key feature of the app is its AI-powered question generation system. Instead of using a generic model, a custom fine-tuned version of the FLAN-T5 model was trained specifically for this project to generate context-aware, memory-based quiz questions. This approach enhances cognitive stimulation and encourages users to recall and reflect on their past experiences through gamified prompts.
+
+The backend utilizes Firebase services for secure authentication, cloud storage, and real-time data handling. Meanwhile, the fine-tuned Hugging Face model enables intelligent quiz generation based on user-submitted memories. With modern UI components, PDF reporting, and leaderboard tracking, MemorEase transforms memory sharing into an engaging, personalized, and socially connected experience.
+
 ---
 
 ## 🎯 Features
