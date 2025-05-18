@@ -1,0 +1,191 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".HomeFragment">
+
+    <!-- Film Şeridi -->
+
+    <!-- Profil Resmi ve Kullanıcı Adı Alanı -->
+
+    <!-- Üçlü Buton ve Skor Alanı -->
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/logoutButton"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="22dp"
+        android:alpha="0.8"
+        android:backgroundTint="@color/red"
+        android:drawableStart="@drawable/baseline_logout_24"
+        android:drawablePadding="8dp"
+        android:text="Log-out"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/score_container"
+        app:layout_constraintVertical_bias="0.64" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+        <TextView
+            android:id="@+id/uuidDisplay"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:background="@drawable/uuid_input_background"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/copyIcon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="8dp"
+            android:contentDescription="Copy UUID"
+            android:src="@drawable/ic_copy" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Yuvarlak Profil Resmi -->
+
+        <!-- Kullanıcı Adı -->
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:padding="5dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/score_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout2"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <!-- Sol Buton -->
+        <Button
+            android:id="@+id/button_upload"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:alpha="0.8"
+            android:backgroundTint="@color/red"
+            android:backgroundTintMode="src_in"
+            android:text="Upload Memories"
+            android:textColor="#FFFFFF"
+            android:textSize="10dp"
+            app:cornerRadius="50dp" />
+
+        <!-- Orta Yuvarlak Skor Bölümü -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginHorizontal="0dp"
+            android:background="@drawable/circle_background_text">
+
+            <!-- "Score" Yazısı (Üstte) -->
+            <TextView
+                android:id="@+id/score_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="Score"
+                android:textColor="@color/red"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- Skor Rakamı ("234.632") (Ortada) -->
+
+            <!-- Kupa Görseli (En Altta) -->
+            <TextView
+                android:id="@+id/score_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:textColor="@color/purple"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/score_label" />
+
+            <ImageView
+                android:id="@+id/trophy_icon"
+                android:layout_width="77dp"
+                android:layout_height="63dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/trophy"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.506"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/score_text" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- Sağ Buton -->
+        <Button
+            android:id="@+id/button_review"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:alpha="0.8"
+            android:backgroundTint="@color/red"
+            android:backgroundTintMode="src_in"
+            android:text="Review Memories"
+            android:textColor="#FFFFFF"
+            android:textSize="10dp"
+            app:cornerRadius="50dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

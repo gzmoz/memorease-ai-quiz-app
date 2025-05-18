@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".UploadMemoryFragment">
+
+    <!-- Üstteki Mavi Bar -->
+
+    <!-- Başlık -->
+
+    <!-- Açıklama -->
+
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload a memory"
+        android:textColor="@color/darkBlue"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/descriptionText"
+        app:layout_constraintEnd_toEndOf="@+id/imageView8"
+        app:layout_constraintStart_toStartOf="@+id/imageView8" />
+
+    <TextView
+        android:id="@+id/descriptionText"
+        android:layout_width="298dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Please choose the type of memory you would like to upload."
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonContainer"
+        app:layout_constraintEnd_toEndOf="@+id/titleText"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="@+id/titleText" />
+
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="130dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/descriptionText"
+        app:layout_constraintStart_toStartOf="@+id/descriptionText">
+
+
+        <!-- Text Memory Butonu -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnTextMemory"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/red"
+            app:icon="@drawable/ic_text"
+            app:iconGravity="textStart"
+            app:iconPadding="8dp"
+            app:iconTint="@android:color/white"
+            android:text="Text"
+            android:textColor="@android:color/white" />
+
+        <!-- Image Memory Butonu -->
+
+
+        <!-- Voice Memory Butonu -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnImageMemory"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/red"
+            app:icon="@drawable/ic_image"
+            app:iconGravity="textStart"
+            app:iconPadding="8dp"
+            app:iconTint="@android:color/white"
+            android:text="Image"
+            android:textColor="@android:color/white" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnVoiceMemory"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/red"
+            app:icon="@drawable/ic_voice"
+            app:iconGravity="textStart"
+            app:iconPadding="8dp"
+            app:iconTint="@android:color/white"
+            android:text="Voice"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="218dp"
+        android:layout_height="216dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/uploadmemory"
+        app:layout_constraintBottom_toTopOf="@+id/titleText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,24 @@
+<!-- res/drawable/leaderboard_personal_shadow.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Shadow katmanı -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+            <stroke
+                android:width="2dp"
+                android:color="#33000000" /> <!-- Şeffaf siyah (gölge hissi verir) -->
+            <corners android:radius="25dp" />
+        </shape>
+    </item>
+
+    <!-- Ana kenar çizgisi katmanı -->
+    <item android:top="1dp" android:left="1dp" android:right="1dp" android:bottom="1dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/plato" />
+            <corners android:radius="25dp" />
+        </shape>
+    </item>
+</layer-list>

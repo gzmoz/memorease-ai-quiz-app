@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SignInUserActivity">
+
+    <!-- Üst görsel -->
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="241dp"
+        android:layout_height="194dp"
+        android:layout_marginTop="104dp"
+        android:contentDescription="Sign-in Image"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/signinuser" />
+
+    <!-- Başlık -->
+    <TextView
+        android:id="@+id/signInTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User"
+        android:textColor="@color/red"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/imageView4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Giriş Alanları ve Buton -->
+    <LinearLayout
+        android:id="@+id/inputGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        app:layout_constraintTop_toBottomOf="@id/signInTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <EditText
+            android:id="@+id/emailInput"
+            android:layout_width="312dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edit_text_background"
+            android:hint="E-Mail"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/passwordInput"
+            android:layout_width="312dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="28dp"
+            android:background="@drawable/edit_text_background"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/signInButton"
+            android:layout_width="312dp"
+            android:layout_height="50dp"
+            android:text="Sign-In"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:backgroundTint="@color/red"
+            app:cornerRadius="12dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

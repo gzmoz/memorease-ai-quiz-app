@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Local configuration
+local.properties
+.env
+token.txt
+
+# IDE files
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# NDK/CMake
+.externalNativeBuild/
+.cxx/
+
+# Keystore files
+*.keystore
+*.jks
+
+# Misc
+captures/

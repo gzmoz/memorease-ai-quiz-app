@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/editMemoryScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white"
+    tools:context=".EditMemoryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Başlık -->
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Memory"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="16dp" />
+
+        <!-- Açıklama -->
+        <EditText
+            android:id="@+id/editTextDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:gravity="top"
+            android:background="@drawable/edittext_background"
+            android:padding="10dp"
+            android:textColor="@android:color/black" />
+
+        <!-- Tür -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinnerType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/memory_types" />
+
+        <!-- Görsel için önizleme -->
+        <ImageView
+            android:id="@+id/imageViewPreview"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"
+            android:visibility="gone"
+            android:contentDescription="Image Preview" />
+
+        <!-- Ses bölümü -->
+        <RelativeLayout
+            android:id="@+id/audioSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/playButton"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_play"
+                android:contentDescription="Play audio" />
+
+            <ImageView
+                android:id="@+id/editAudioButton"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/ic_edit"
+                android:contentDescription="Edit audio" />
+        </RelativeLayout>
+
+        <!-- Soru -->
+        <EditText
+            android:id="@+id/editTextQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Question"
+            android:layout_marginTop="24dp"
+            android:inputType="text"
+            android:background="@drawable/edittext_background"
+            android:padding="10dp"
+            android:textColor="@android:color/black" />
+
+        <!-- Cevap -->
+        <EditText
+            android:id="@+id/editTextAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Answer"
+            android:layout_marginTop="12dp"
+            android:inputType="textMultiLine"
+            android:minLines="2"
+            android:background="@drawable/edittext_background"
+            android:padding="10dp"
+            android:textColor="@android:color/darker_gray" />
+
+        <!-- Kaydet Butonu -->
+        <Button
+            android:id="@+id/buttonSaveChanges"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Changes"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/red"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>

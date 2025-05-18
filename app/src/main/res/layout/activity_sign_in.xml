@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SignInActivity">
+
+    <!-- Welcome Back -->
+
+    <!-- Yeni renk tanımı -->
+    />
+
+    <!-- Sign in to continue -->
+
+    <!-- Kullanıcı Butonu -->
+
+    <!-- Yakın Butonu -->
+
+    <!-- User Yazısı -->
+
+    <!-- Relative Yazısı -->
+
+    <!-- Alt Bilgi -->
+
+    <ImageView
+        android:id="@+id/brainImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginBottom="33dp"
+        android:src="@drawable/brainneuron"
+        app:layout_constraintBottom_toTopOf="@+id/welcomeText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="275dp"
+        android:text="Welcome Back"
+        android:textColor="@color/red"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/brainImage"
+        app:layout_constraintStart_toStartOf="@+id/brainImage"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/signInText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in to continue"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/welcomeText"
+        app:layout_constraintStart_toStartOf="@+id/welcomeText"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeText" />
+
+    <!-- İKON + YAZILAR BİRLİKTE ORTALI YERLEŞTİRİLDİ -->
+
+
+    <LinearLayout
+        android:id="@+id/buttonGroupLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/noAccountText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/signInText"
+        app:layout_constraintVertical_bias="0.142">
+
+        <!-- USER -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="32dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/userButton"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="User"
+                android:scaleType="fitCenter"
+                android:src="@drawable/userlogin" />
+
+            <TextView
+                android:id="@+id/userText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="User"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- RELATIVE -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/relativeButton"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="Relative"
+                android:scaleType="fitCenter"
+                android:src="@drawable/relativelogin" />
+
+            <TextView
+                android:id="@+id/relativeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="Relative"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/noAccountText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Don't you have an account?"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/signUpButton"
+        app:layout_constraintEnd_toEndOf="@+id/signUpButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/signUpButton" />
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="72dp"
+        android:backgroundTint="@color/red"
+        android:text="Sign-Up"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
