@@ -6,11 +6,13 @@ MemorEase is an Android application developed with Kotlin, designed to help user
   <img src="app/src/main/res/drawable/logowname.png" width="180"/>
 </p>
 
-MemorEase is an Android application that allows users to preserve and share their memories in text, voice, and image formats. The app features two distinct user flows — one for individuals and another for relatives. While individuals can upload and review their memories, relatives are also encouraged to contribute, fostering intergenerational interaction and shared remembrance.
+MemorEase is a Kotlin-based Android application that empowers users to capture, preserve, and interact with their personal memories using text, voice, or images. The app supports two user types — individuals and their relatives — allowing a shared, collaborative experience centered around memory collection and reflection.
 
-A key feature of the app is its AI-powered question generation system. Instead of using a generic model, a custom fine-tuned version of the FLAN-T5 model was trained specifically for this project to generate context-aware, memory-based quiz questions. This approach enhances cognitive stimulation and encourages users to recall and reflect on their past experiences through gamified prompts.
+A standout feature is the AI-generated quiz system, which encourages cognitive engagement. Instead of relying on a general-purpose model, the app utilizes a custom fine-tuned FLAN-T5 model, trained specifically to generate relevant and meaningful questions based on user-submitted memories. This allows users to test their recollection, emotional connection, or details surrounding specific events — turning memory recall into an interactive and meaningful exercise.
 
-The backend utilizes Firebase services for secure authentication, cloud storage, and real-time data handling. Meanwhile, the fine-tuned Hugging Face model enables intelligent quiz generation based on user-submitted memories. With modern UI components, PDF reporting, and leaderboard tracking, MemorEase transforms memory sharing into an engaging, personalized, and socially connected experience.
+To enhance motivation and engagement, a dynamic leaderboard is integrated into the app. Users earn points through memory uploads and quiz interactions, and rankings are visualized in a clean, competitive layout. Weekly performance reports are also generated in PDF format, providing users with insights into their memory activity over time.
+
+MemorEase is built on Firebase for real-time database syncing, secure authentication, and cloud-based storage. Combined with its custom-trained Hugging Face model and responsive UI, the app provides a holistic experience that merges technology, memory, and emotional connection in a socially interactive platform.
 
 ---
 
