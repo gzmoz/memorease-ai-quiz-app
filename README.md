@@ -32,29 +32,47 @@ MemorEase is an Android application developed with Kotlin, designed to help user
 
 ---
 
-## 📸 Screenshots
 
 ## 📸 Screenshots
 
 ### 📝 Upload Memory
-![Upload](screenshots/uploadmemory.png)
+<p align="left">
+  <img src="screenshots/uploadmemory.png" width="300"/>
+</p>
+
+---
 
 ### ❓ Generate Questions
-![Quiz1](screenshots/generate1.png)
-![Quiz1](screenshots/generate2.png)
-![Quiz1](screenshots/generate3.png)
+<p float="left">
+  <img src="screenshots/generate1.png" width="250"/>
+  <img src="screenshots/generate2.png" width="250"/>
+  <img src="screenshots/generate3.png" width="250"/>
+</p>
+
+---
 
 ### 🧠 Quiz Screen
-![Quiz2](screenshots/quiz1.png)
-![Quiz2](screenshots/quiz2.png)
+<p float="left">
+  <img src="screenshots/quiz1.png" width="250"/>
+  <img src="screenshots/quiz2.png" width="250"/>
+</p>
+
+---
 
 ### 🏆 Leaderboard
-![Leaderboard](screenshots/leaderboard.png)
+<p align="left">
+  <img src="screenshots/leaderboard.png" width="300"/>
+</p>
+
+---
 
 ### 📊 Weekly Report
-![Report](screenshots/generalreport.png)
-![Report](screenshots/weeklyreport.png)
-![Report](screenshots/weeklydetail.png)
+<p float="left">
+  <img src="screenshots/generalreport.png" width="250"/>
+  <img src="screenshots/weeklyreport.png" width="250"/>
+  <img src="screenshots/weeklydetail.png" width="250"/>
+</p>
+
 
 
  
