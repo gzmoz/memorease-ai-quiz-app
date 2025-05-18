@@ -25,9 +25,8 @@ MemorEase is an Android application developed with Kotlin, designed to help user
 - **Language:** Kotlin
 - **Architecture:** MVVM
 - **UI:** XML layouts, RecyclerViews, Fragments
-- **Backend:** Firebase Firestore, Firebase Auth, Firebase Storage
+- **Backend:** Firebase Firestore, Firebase Auth, Cloudinary
 - **AI Integration:** Hugging Face API (FLAN-T5 model)
-- **PDF Creation:** Android `PdfDocument`
 - **Media Handling:** Glide for image loading, MediaPlayer for voice playback
 
 ---
