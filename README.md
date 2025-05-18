@@ -110,9 +110,6 @@ MemorEase is built on Firebase for real-time database syncing, secure authentica
 
 ---
 
-## 📜 License
-
-This project is licensed under the MIT License.  
 
 
 
