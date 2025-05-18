@@ -69,7 +69,7 @@ MemorEase is an Android application developed with Kotlin, designed to help user
 ### 📊 Weekly Report
 <p float="left">
   <img src="screenshots/generalreport.png" width="250"/>
-  <img src="screenshots/weeklyreport.png" width="250"/>
+  <img src="screenshots/weeklyreports.png" width="250"/>
   <img src="screenshots/weeklydetail.png" width="250"/>
 </p>
 
