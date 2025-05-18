@@ -35,8 +35,9 @@ MemorEase is an Android application developed with Kotlin, designed to help user
 
 ## 📸 Screenshots
 
-### 📝 Upload & Review Memory
+### 📝 Main Screen / Upload & Review Memory
 <p align="left">
+  <img src="screenshots/main.png" width="300"/>
   <img src="screenshots/uploadmemory.png" width="300"/>
   <img src="screenshots/reviewmemory.png" width="300"/>
 </p>
