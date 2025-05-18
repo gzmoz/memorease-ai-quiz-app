@@ -60,8 +60,8 @@ MemorEase is an Android application developed with Kotlin, designed to help user
   <img src="screenshots/quiz2.png" width="250"/>
    <img src="screenshots/quiz3.png" width="250"/>
    <img src="screenshots/quiz4.png" width="250"/>
-   <img src="screenshots/quiz5.png" width="250"/>
-   <img src="screenshots/quiz6.png" width="250"/>
+   <img src="screenshots/quiz5.jpg" width="250"/>
+   <img src="screenshots/quiz6.jpg" width="250"/>
 </p>
 
 ---
