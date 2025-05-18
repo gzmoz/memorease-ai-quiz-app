@@ -79,13 +79,6 @@ MemorEase is an Android application developed with Kotlin, designed to help user
 
 ---
 
-## 🎬 Demo Video
-
-> 🧪 Coming soon: add screen recording or YouTube link here  
-> `![demo](screenshots/demo.gif)` or `[▶️ Watch on YouTube](https://youtu.be/...)`
-
----
-
 ## 👤 Developed By
 
 **Gizem Öz**  
