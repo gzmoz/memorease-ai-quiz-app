@@ -34,10 +34,9 @@ MemorEase is an Android application developed with Kotlin, designed to help user
 
 
 ## 📸 Screenshots
-
-| Upload Memory | Leaderboard | Weekly Report |
-|---------------|-------------|---------------|
-| ![upload](screenshots/main.png) | ![leaderboard](screenshots/quiz1.png) | ![report](screenshots/quiz2.png) |
+| Upload Memory | Generate Questions | Quiz | Leaderboard | Weekly Report |
+|---------------|-------------|---------------|-------------|---------------|
+| ![upload](screenshots/uploadmemory.png) | ![quiz](screenshots/quiz1.png) | ![quiz](screenshots/quiz2.png) |
 
 ---
 
