@@ -2,7 +2,9 @@
 
 MemorEase is an Android application developed with Kotlin, designed to help users preserve and share their memories — with the help of AI-generated questions. The app features a unique dual-user structure: individuals can save their memories, while relatives can contribute and view them with a dedicated interface. Firebase services and Hugging Face AI models are used for memory management and smart quiz generation.
 
-![MemorEase Logo](app/src/main/res/drawable/logowname.png)
+<p align="center">
+  <img src="app/src/main/res/drawable/logowname.png" width="180"/>
+</p>
 
 ---
 
@@ -30,23 +32,6 @@ MemorEase is an Android application developed with Kotlin, designed to help user
 
 ---
 
-## 🔧 Setup Instructions
-
-1. Clone the repo:
-    ```bash
-    git clone https://github.com/gzmoz/memorease-ai-quiz-app.git
-    ```
-
-2. Create a new Firebase project and download your own `google-services.json`  
-   Place it in the `app/` directory.
-
-3. Add your own Hugging Face token via secure API call (avoid hardcoding!).
-
-4. Sync project and run on emulator or device.
-
-> ⚠️ `google-services.json` is excluded from version control for security. You must configure Firebase yourself.
-
----
 
 ## 📸 Screenshots
 
@@ -67,13 +52,13 @@ MemorEase is an Android application developed with Kotlin, designed to help user
 
 **Gizem Öz**  
 📧 ozgzm2001@gmail.com  
-🌐 [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+🌐 [linkedin.com/in/gizem-oz](https://linkedin.com/in/gizem-oz)
 
 ---
 
 ## 📜 License
 
 This project is licensed under the MIT License.  
-You are free to fork, build, or contribute — just don’t forget to give credit! 💙
+
 
 
