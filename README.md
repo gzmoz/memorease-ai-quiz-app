@@ -15,6 +15,8 @@ To enhance motivation and engagement, a dynamic leaderboard is integrated into t
 MemorEase is built on Firebase for real-time database syncing, secure authentication, and cloud-based storage. Combined with its custom-trained Hugging Face model and responsive UI, the app provides a holistic experience that merges technology, memory, and emotional connection in a socially interactive platform.
 
 ---
+###  Demo Video
+[![MemorEase](https://snipboard.io/8t6rcf.jpg)](https://youtube.com/shorts/0slCO1SSf-c?feature=share)
 
 ##  Features
 
@@ -96,11 +98,6 @@ MemorEase is built on Firebase for real-time database syncing, secure authentica
   <img src="screenshots/weeklydetail.png" width="250"/>
 </p>
 
-###  Demo Video
-[![MemorEase](https://snipboard.io/8t6rcf.jpg)](https://youtube.com/shorts/0slCO1SSf-c?feature=share)
-
-
- 
 
 ---
 
