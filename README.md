@@ -96,13 +96,15 @@ MemorEase is built on Firebase for real-time database syncing, secure authentica
   <img src="screenshots/weeklydetail.png" width="250"/>
 </p>
 
+###  Demo Video
+[![MemorEase](https://snipboard.io/8t6rcf.jpg)](https://youtube.com/shorts/0slCO1SSf-c?feature=share)
 
 
  
 
 ---
 
-## 👤 Developed By
+##  Developed By
 
 **Gizem Öz**  
 📧 ozgzm2001@gmail.com  
