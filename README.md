@@ -16,19 +16,19 @@ MemorEase is built on Firebase for real-time database syncing, secure authentica
 
 ---
 
-## 🎯 Features
+##  Features
 
-- 🔐 **User & Relative Login** – Separate flows with secure Firebase authentication
-- 📝 **Upload Memories** – Add text, voice, and image memories
-- 🤖 **AI-Powered Questions** – Automatically generate quiz questions from memories using a Hugging Face model
-- 📊 **Weekly Reports** – Get visual performance feedback on memory sharing
-- 🏆 **Leaderboard** – Track and compare memory sharing scores
-- 📄 **PDF Export** – Generate printable reports with memory statistics
-- 🎨 **Modern UI** – Material Design + image assets for clean and interactive experience
+-  **User & Relative Login** – Separate flows with secure Firebase authentication
+-  **Upload Memories** – Add text, voice, and image memories
+-  **AI-Powered Questions** – Automatically generate quiz questions from memories using a Hugging Face model
+-  **Weekly Reports** – Get visual performance feedback on memory sharing
+-  **Leaderboard** – Track and compare memory sharing scores
+-  **PDF Export** – Generate printable reports with memory statistics
+-  **Modern UI** – Material Design + image assets for clean and interactive experience
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Language:** Kotlin
 - **Architecture:** MVVM
@@ -40,16 +40,16 @@ MemorEase is built on Firebase for real-time database syncing, secure authentica
 ---
 
 
-## 📸 Screenshots
+##  Screenshots
 
-### 🔐 User & Relative Login
+###  User & Relative Login
 <p align="left">
   <img src="screenshots/main.png" width="250"/>
   <img src="screenshots/signinuser.png" width="250"/>
   <img src="screenshots/signinrelative.png" width="250"/>
 </p>
 
-### 📝 Home Screen / Upload & Review Memory
+###  Home Screen / Upload & Review Memory
 <p align="left">
   <img src="screenshots/home.png" width="250"/>
   <img src="screenshots/uploadmemory.png" width="250"/>
@@ -58,7 +58,7 @@ MemorEase is built on Firebase for real-time database syncing, secure authentica
 
 ---
 
-### ❓ Generate Questions
+###  Generate Questions
 <p float="left">
   <img src="screenshots/generate1.png" width="250"/>
   <img src="screenshots/generate2.png" width="250"/>
@@ -70,7 +70,7 @@ MemorEase is built on Firebase for real-time database syncing, secure authentica
 
 ---
 
-### 🧠 Quiz Screen
+###  Quiz Screen
 <p float="left">
   <img src="screenshots/quiz1.png" width="250"/>
   <img src="screenshots/quiz2.png" width="250"/>
@@ -82,14 +82,14 @@ MemorEase is built on Firebase for real-time database syncing, secure authentica
 
 ---
 
-### 🏆 Leaderboard
+###  Leaderboard
 <p align="left">
   <img src="screenshots/leaderboard.png" width="300"/>
 </p>
 
 ---
 
-### 📊 Weekly Report
+###  Weekly Report
 <p float="left">
   <img src="screenshots/generalreport.png" width="250"/>
   <img src="screenshots/weeklyreports.png" width="250"/>
